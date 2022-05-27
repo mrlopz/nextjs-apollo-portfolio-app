@@ -1,6 +1,6 @@
-const Replier: React.FC = () => {
+export const Replier: React.FC = () => {
   return (
-    <>
+    <div className="container">
       {/* <div className='reply-controls is-open'> */}
       <div className="reply-controls">
         <div className="reply-area">
@@ -33,8 +33,6 @@ const Replier: React.FC = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
-
-export default Replier

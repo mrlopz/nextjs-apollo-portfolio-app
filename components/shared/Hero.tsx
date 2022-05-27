@@ -1,4 +1,4 @@
-const Hero: React.FC = () => {
+export const Hero: React.FC = () => {
   return (
     <section className="fj-hero">
       <div className="fj-hero-wrapper row">
@@ -34,5 +34,3 @@ const Hero: React.FC = () => {
     </section>
   )
 }
-
-export default Hero

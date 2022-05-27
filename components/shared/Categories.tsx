@@ -1,6 +1,6 @@
-const ForumCategories: React.FC = () => {
+export const Categories: React.FC = () => {
   return (
-    <>
+    <div className="container">
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
@@ -57,8 +57,6 @@ const ForumCategories: React.FC = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
-
-export default ForumCategories

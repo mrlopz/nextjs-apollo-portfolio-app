@@ -1,4 +1,4 @@
-const HomePagePortfolio: React.FC = () => {
+export const Portfolios: React.FC = () => {
   return (
     <div className="container">
       <section className="section-title">
@@ -57,8 +57,9 @@ const HomePagePortfolio: React.FC = () => {
           </div>
         </div>
       </section>
+      <a href="/portfolios" className="btn btn-main bg-blue ttu">
+        See More Portfolios
+      </a>
     </div>
   )
 }
-
-export default HomePagePortfolio

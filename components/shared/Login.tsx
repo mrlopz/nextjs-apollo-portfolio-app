@@ -1,6 +1,6 @@
-const LoginPage: React.FC = () => {
+export const Login: React.FC = () => {
   return (
-    <>
+    <div className="container">
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
@@ -28,8 +28,6 @@ const LoginPage: React.FC = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
-
-export default LoginPage

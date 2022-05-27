@@ -1,6 +1,6 @@
-const PostPage: React.FC = () => {
+export const Postpage: React.FC = () => {
   return (
-    <>
+    <div className="container">
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
@@ -156,8 +156,6 @@ const PostPage: React.FC = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
-
-export default PostPage

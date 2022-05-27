@@ -1,6 +1,6 @@
-const Topics: React.FC = () => {
+export const Topics: React.FC = () => {
   return (
-    <>
+    <div className="container">
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
@@ -40,8 +40,6 @@ const Topics: React.FC = () => {
           </tbody>
         </table>
       </section>
-    </>
+    </div>
   )
 }
-
-export default Topics
