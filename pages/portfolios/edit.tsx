@@ -1,3 +1,3 @@
-const Edit = () => <h1>PORTFOLIO EDIT</h1>
+const PortfolioEdit: React.FC = () => <h1>PORTFOLIO EDIT</h1>
 
-export default Edit
+export default PortfolioEdit
